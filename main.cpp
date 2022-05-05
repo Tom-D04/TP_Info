@@ -1,11 +1,19 @@
 #include "mainwindow.h"
-
 #include <QApplication>
+#include <stdlib.h>
+#include <string.h>
+#include <iostream>
 
-int main(int argc, char *argv[])
+bool deplacer_personnage(int x, int y, std::string cmd);
+
+int main(int argc, char** argv)
 {
-    QApplication a(argc, argv);
-    MainWindow w;
-    w.show();
-    return a.exec();
+    int x=5, y=4;
+    deplacer_personnage(x,y, "UP");
+
+    return 0;
+}
+
+bool deplacer_personnage(int x, int y, std::string cmd){
+
 }
