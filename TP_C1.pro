@@ -11,7 +11,11 @@ CONFIG += c++11
 SOURCES += \
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
    main.cpp
+=======
+    main.cpp
+>>>>>>> 9ef20324306fc78700d5c9e4b8cf2937ce403169
 =======
     main.cpp
 >>>>>>> 9ef20324306fc78700d5c9e4b8cf2937ce403169

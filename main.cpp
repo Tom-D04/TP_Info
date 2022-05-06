@@ -7,6 +7,9 @@
 #include <string.h>
 #include <iostream>
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 9ef20324306fc78700d5c9e4b8cf2937ce403169
+=======
 >>>>>>> 9ef20324306fc78700d5c9e4b8cf2937ce403169
 =======
 >>>>>>> 9ef20324306fc78700d5c9e4b8cf2937ce403169
@@ -17,8 +20,11 @@ int main(int argc, char** argv)
 {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  return 0;
 =======
+=======
+>>>>>>> 9ef20324306fc78700d5c9e4b8cf2937ce403169
 =======
 >>>>>>> 9ef20324306fc78700d5c9e4b8cf2937ce403169
     int x=5, y=4;
@@ -30,6 +36,9 @@ int main(int argc, char** argv)
 bool deplacer_personnage(int x, int y, std::string cmd){
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 9ef20324306fc78700d5c9e4b8cf2937ce403169
+=======
 >>>>>>> 9ef20324306fc78700d5c9e4b8cf2937ce403169
 =======
 >>>>>>> 9ef20324306fc78700d5c9e4b8cf2937ce403169
