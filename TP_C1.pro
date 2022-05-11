@@ -9,8 +9,19 @@ CONFIG += c++11
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
-    exceptionsizetab.cpp \
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
    main.cpp
+=======
+    main.cpp
+>>>>>>> 9ef20324306fc78700d5c9e4b8cf2937ce403169
+=======
+    main.cpp
+>>>>>>> 9ef20324306fc78700d5c9e4b8cf2937ce403169
+=======
+    main.cpp
+>>>>>>> 9ef20324306fc78700d5c9e4b8cf2937ce403169
 
 
 
@@ -18,6 +29,3 @@ SOURCES += \
 qnx: target.path = /tmp/$${TARGET}/bin
 else: unix:!android: target.path = /opt/$${TARGET}/bin
 !isEmpty(target.path): INSTALLS += target
-
-HEADERS += \
-    exceptionsizetab.h

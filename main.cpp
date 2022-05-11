@@ -1,62 +1,45 @@
+<<<<<<< HEAD
 
-#include "exceptionsizetab.h"
+=======
+#include "mainwindow.h"
 #include <QApplication>
 #include <stdlib.h>
 #include <string.h>
 #include <iostream>
-
-
-
-
-
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 9ef20324306fc78700d5c9e4b8cf2937ce403169
+=======
+>>>>>>> 9ef20324306fc78700d5c9e4b8cf2937ce403169
+=======
+>>>>>>> 9ef20324306fc78700d5c9e4b8cf2937ce403169
 
 bool deplacer_personnage(int x, int y, std::string cmd);
 
-bool detecter_collision(int ennemis_x[], int ennemis_y[], int nb_ennemis,
-      int x, int y);
-
 int main(int argc, char** argv)
 {
-int x=5, y=4;
-int enn_x[4] = {1, 2, 3, 4}, enn_y[4] = {1, 2, 3, 4};
-try {
-     if (detecter_collision(enn_x, enn_y, 4, x, y))
-     {
-         std::cout << "Collision" << std::endl;
-
-    }
-}
-catch (ExceptionSizeTab&) {
-    std::cout<< "ennemie inférieur à 0"<<std::endl;
-}
-try {
-     if (detecter_collision(enn_x, enn_y, -5, x, y))
-     {
-         std::cout << "Collision" << std::endl;
-
-    }
-}
-catch (ExceptionSizeTab&) {
-    std::cout<< "ennemie inférieur à 0"<<std::endl;
-}
-
-
-
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+ return 0;
+=======
+=======
+>>>>>>> 9ef20324306fc78700d5c9e4b8cf2937ce403169
+=======
+>>>>>>> 9ef20324306fc78700d5c9e4b8cf2937ce403169
+    int x=5, y=4;
+    deplacer_personnage(x,y, "UP");
 
     return 0;
 }
 
 bool deplacer_personnage(int x, int y, std::string cmd){
-return true;
 
-}
-
-bool detecter_collision(int ennemis_x[], int ennemis_y[], int nb_ennemis,
-      int x, int y)
-{
-        if(nb_ennemis<=0){
-            throw ExceptionSizeTab();
-        }
-
-        return false;
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 9ef20324306fc78700d5c9e4b8cf2937ce403169
+=======
+>>>>>>> 9ef20324306fc78700d5c9e4b8cf2937ce403169
+=======
+>>>>>>> 9ef20324306fc78700d5c9e4b8cf2937ce403169
 }
