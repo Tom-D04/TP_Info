@@ -9,7 +9,11 @@ CONFIG += c++11
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
-<<<<<<< HEAD
+<<<<<<< HEAD \
+    clyde.cpp \
+    ennemi.cpp \
+    exceptionsizetab.cpp \
+    main.cpp
 <<<<<<< HEAD
 <<<<<<< HEAD
    main.cpp
@@ -29,3 +33,8 @@ SOURCES += \
 qnx: target.path = /tmp/$${TARGET}/bin
 else: unix:!android: target.path = /opt/$${TARGET}/bin
 !isEmpty(target.path): INSTALLS += target
+
+HEADERS += \
+    clyde.h \
+    ennemi.h \
+    exceptionsizetab.h
